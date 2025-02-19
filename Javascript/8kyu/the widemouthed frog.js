@@ -19,3 +19,10 @@ function mouthSize(animal) {
         default: return "wide"
     }
   }
+
+
+  //BEST PRACTICE 
+
+  function mouthSize(animal) {
+    return animal.toLowerCase() == 'alligator' ? 'small' : 'wide';
+  }
