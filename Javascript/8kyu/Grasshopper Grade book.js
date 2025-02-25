@@ -11,7 +11,7 @@
 
 //MY SOLUTION 
 
-function getGrade (s1, s2, s3) {
+function getGradee (s1, s2, s3) {
     // Code here
     let averageGrade = (s1 + s2 + s3)/ 3
     
@@ -31,5 +31,6 @@ function getGrade (s1, s2, s3) {
         case averageGrade >= 0 :
           return("F");
           break;
+
     }
   }
